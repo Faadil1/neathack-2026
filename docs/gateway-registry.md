@@ -24,7 +24,7 @@
 | Eval-Driven Reliability | ACTIVE | Six deterministic tests, no stochastic repeated-run results |
 | Judge Performance & deterministic fallback | ACTIVE | Only meaningful after real product exists |
 | Business Economics (cfo.ai) | BLOCKED | No cfo.ai plan |
-| Public Build / Reproducibility | ACTIVE | Public code/research and CI; no deployed self-serve app |
+| Public Build / Reproducibility | ACTIVE | Public code/research; remote GitHub Actions suite passed in PR #1; no deployed self-serve app |
 | neatlogs / Entire / cfo.ai Partner Compliance | BLOCKED | Real integrations not yet connected |
 | AWS optional allowance | ACTIVE | User reports seat 132; credit receipt not verified |
 | Crustdata optional enrichment | N/A | No relevant data-enrichment core loop |
