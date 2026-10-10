@@ -1,0 +1,13 @@
+name: Vertex trace script static check
+on:
+  push:
+    branches:
+      - "integration/gemini-neatlogs-first-trace"
+  pull_request:
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile Python script without running provider calls
+        run: python3 -m py_compile scripts/vertex_neatlogs_smoke.py
