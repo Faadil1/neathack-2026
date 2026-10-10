@@ -23,7 +23,7 @@ Six local localhost HTTP + independent SQLite database tests:
 
 - `src/recovery.py`: deterministic safe kernel, not an AI agent
 - `tests/test_recovery.py`: local HTTP receiver and six tests
-- `docs/test-run-2026-10-10.txt`: earlier local run captured before GitHub upload; re-check via CI on this PR
+- `docs/test-run-2026-10-10.txt`: earlier local run captured before GitHub upload; confirmed by green GitHub Actions PR run https://github.com/Faadil1/neathack-2026/actions/runs/38052986050
 - `docs/decision-record.md`: competitive collision and narrow candidates
 - `docs/gateway-registry.md`: project-scoped gateway status
 - `docs/live-proof-gate.md`: truth and product-depth acceptance
