@@ -1,0 +1,15 @@
+Local verification recorded 2026-10-10.
+Command: python -m unittest discover -s tests -v
+test_accepted_without_receipt_is_not_completion (test_recovery.RecoveryTests.test_accepted_without_receipt_is_not_completion) ... ok
+test_exhausted_retries_remain_recoverable_not_falsely_complete (test_recovery.RecoveryTests.test_exhausted_retries_remain_recoverable_not_falsely_complete) ... ok
+test_restart_does_not_duplicate_committed_delivery (test_recovery.RecoveryTests.test_restart_does_not_duplicate_committed_delivery) ... ok
+test_schema_mismatch_blocks (test_recovery.RecoveryTests.test_schema_mismatch_blocks) ... ok
+test_transient_failure_recovers_and_verifies (test_recovery.RecoveryTests.test_transient_failure_recovers_and_verifies) ... ok
+test_unauthorized_refuses_action (test_recovery.RecoveryTests.test_unauthorized_refuses_action) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 3.039s
+
+OK
+
+Classification: LOCAL_VERIFIED of LOCAL_STUB receiver. Re-run the command in CI or local clone before relying on this historical capture. No model/third-party integration.

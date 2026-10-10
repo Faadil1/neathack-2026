@@ -1,0 +1,13 @@
+name: Local recovery spike checks
+on:
+  push:
+    branches:
+      - "research/**"
+  pull_request:
+jobs:
+  local-probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Python 3 stdlib recovery tests
+        run: python3 -m unittest discover -s tests -v

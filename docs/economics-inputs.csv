@@ -1,0 +1,10 @@
+field,value,unit,status,notes
+llm_calls_per_case,,calls,UNKNOWN,Collect observed trace before estimating
+input_tokens_per_case,,tokens,UNKNOWN,Per selected model
+output_tokens_per_case,,tokens,UNKNOWN,Per selected model
+model_cost_per_million_input,,USD,UNKNOWN,Verify selected provider pricing
+model_cost_per_million_output,,USD,UNKNOWN,Verify selected provider pricing
+tool_calls_per_case,,calls,UNKNOWN,Use actual observations
+infrastructure_monthly,,USD,UNKNOWN,Verify live hosting and storage
+cases_per_month,,cases,ASSUMPTION_REQUIRED,Explicit forecast not actual adoption
+willingness_to_pay,,USD,UNKNOWN,Must validate buyer and positioning
